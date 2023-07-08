@@ -1,0 +1,18 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress/integration/examples/*.js",
+    "runtests": "npm run test"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^11.2.0",
+    "cypress-mochawesome-reporter": "^3.2.3",
+    "mocha": "^10.2.0",
+    "mochawesome-merge": "^4.2.2"
+  }
+}
